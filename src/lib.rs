@@ -6,6 +6,7 @@ and returns the plaintext string.
 */
 
 pub fn encrypt(text: &str, shift: u8) -> String {
+    //test docstring to see if this works in the doc --open command
     let mut result = String::new();
     for c in text.chars() {
         if c.is_ascii_alphabetic() {
